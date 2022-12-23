@@ -1,0 +1,43 @@
+.bodybackground {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #4657a1;
+}
+
+.footerColor {
+  background-color: #dedede;
+}
+
+/* Float four columns side by side */
+.column {
+  width: 16%;
+  padding: 20px 20px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+hr.solid {
+  border-top: 5px solid black;
+}
+
+hr.thinline {
+  border-top: 2px solid black;
+}
+
+/* More Articles Cards CSS */
+.cards {
+  width: 60vw;
+  margin: 30px;
+  row-gap: 3vh;
+  column-gap: 2vw;
+}
+​ .card {
+  width: min-content;
+}
