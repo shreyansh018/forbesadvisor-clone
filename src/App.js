@@ -5,6 +5,7 @@ import Firstbottom from "./Components/firstbottom";
 import Footer from "./Components/footer";
 import Header from "./Components/Header";
 import Secondbottom from "./Components/secondbottom";
+import Widget from "./Components/widget";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Body />
       <Cards />
       <Firstbottom />
+      <Widget />
       <Secondbottom />
       <Footer />
     </div>
